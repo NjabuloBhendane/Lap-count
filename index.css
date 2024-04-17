@@ -1,0 +1,54 @@
+body {
+    background-image: url("running.jpg");
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+    margin: auto;
+    
+
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: whitesmoke
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 180px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition-duration:2s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+button:hover {
+    color: yellow;
+    transform: translateY(-0.75rem);
+    
+    
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+
+}
+
